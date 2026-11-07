@@ -99,7 +99,7 @@ header span {
 }
 
 h1 {
-  margin-left: 10px;
+  margin: 10px;
   font-family: var(--font-heading);
 }
 
@@ -109,7 +109,8 @@ h2 {
   font-family: var(--font-body);
   background-color: var(--primary-color);
   text-align: center;
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+  padding: .3rem;
 }
 
 
