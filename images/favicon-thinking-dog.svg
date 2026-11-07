@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-114 255 1260 1260" width="512" height="512">
+  <title>Silueta de perro sentado de espaldas mirando una estrella lejana</title>
+  <rect x="-114" y="255" width="1260" height="1260" rx="220" fill="#0B0F1A"/>
+
+  <!-- Cielo: estrella lejana en forma de destello + dos estrellas todavía más lejanas -->
+  <g fill="#F2F5FA" stroke="#F2F5FA" stroke-width="4" stroke-linejoin="round">
+    <path d="M745 320 Q745 385 810 385 Q745 385 745 450 Q745 385 680 385 Q745 385 745 320Z"/>
+    <g stroke="none" opacity="0.75">
+      <circle cx="870" cy="318" r="15"/>
+      <circle cx="845" cy="468" r="10"/>
+    </g>
+  </g>
+
+  <!-- Perro -->
+  <g fill="#F2F5FA" stroke="#F2F5FA" stroke-width="8"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M485 520 Q510 516 535 520 L570 540 600 548 690 605 688 645 650 715
+             628 695 598 665 595 745 655 845 680 912 655 965 682 1060 672 1100
+             680 1138 710 1160 745 1200 748 1310 723 1335 722 1350 715 1366
+             552 1385 538 1398 470 1433 345 1450 312 1462 400 1385 440 1363
+             317 1352 315 1335 295 1290 308 1195 335 1160 380 1150 350 1060
+             385 965 350 915 373 835 432 745 425 665 410 695 375 718 333 650
+             333 605 425 548 455 540Z"/>
+  </g>
+</svg>

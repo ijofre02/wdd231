@@ -3,9 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ignacio Jofré | WDD 231 </title>
+  <meta name="description" content="Home page of me, Ignacio Jofré, a web development student at BYU-Pathway. Learn about me and browse the Web and Computer Programming certificate courses.">
+  <meta name="author" content="Ignacio D. Jofre Alonso">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Poppins:wght@600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+
   <title>Document</title>
 </head>
 <body>
-  
+  <header>
+    <img src="images/favicon-thinking-dog.svg" alt="site logo" width="512px" height="512px">
+    <span>Chorbs</span>
+    <button id="ham-btn" class="hamburguer" aria-label="Menu"></button>
+  </header>
+  <nav id="nav-bar" class="navigation">
+    <ul >
+      <li class="current"><a href="#" aria-current="page">Home</a></li>
+      <li><a href="chamber/index.html">Chamber Proyect</a></li>
+      <li><a href="#">Final Proyect</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Home</h1>
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p>
+        My name is Ignacio Jofré, and I am from San Luis, Argentina. I currently work mowing the church grass. I worked for many
+        years in production administration, analyzing data and managing stock control. I love science, especially chemistry, and
+        I hoope to worck in that fiel with programming one day. In my free time I enjoy spending time with my family and playing
+        guitar.
+      </p>
+    </section>
+
+    <section class="Student-photo">
+      <h2>Student Photo</h2>
+      <img src="images/me-bishopric-one.webp" alt="Me" width="300">
+    </section>
+
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+      <div class="filters">
+        <button type="button" id="all">All</button>
+        <button type="button" id="cse">CSE</button>
+        <button type="button" id="wdd">WDD</button>
+      </div>
+      <div id="course-list"></div>
+      <p id="total-credits"></p>
+    </section>
+  </main>
+  <footer>
+    <div class="social"> <!-- target="_blank" open in a new tab -->
+      <a href="https://store.steampowered.com/?l=spanish" target="_blank"><img src="images/steam.svg" alt="Steam" width="16" height="16"></a>
+      <a href="https://www.xbox.com/es-AR/" target="_blank"><img src="images/xbox.svg" alt="Xbox" width="16" height="16"></a>
+      <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
+      <a href="https://www.linkedin.com/in/ignacio-d-jofre/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+    </div>
+    <p class="copyright">&copy; <span id="currentYear"></span> Ignacio D. Jofré Alonso</p>
+    <p class="last-modified">Last Modification: <span id="lastModified"></span></p>
+  </footer>
 </body>
 </html>
