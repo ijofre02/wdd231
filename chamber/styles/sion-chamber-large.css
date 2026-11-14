@@ -1,0 +1,72 @@
+@media only screen and (min-width: 38rem) {
+
+  /* =========== HEADER ========== */
+
+  header {
+    grid-template-columns: 24px auto;
+  }
+
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  /* ========== NAVIGATION ======== */
+
+  .navigation {
+    display: block;
+    border-bottom: solid 1px #ddd;
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navigation a {
+    border: none;
+    background-color: transparent;
+    color: var(--text-color);
+  }
+
+  .navigation li.current a {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  /* ========== MAIN ========== */
+
+  main {
+    padding: 1.5rem;
+  }
+
+  /* ========== DIRECTORY ========== */
+
+  #cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  #cards.list-view {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* ========== LARGE DESKTOP ========= */
+
+@media only screen and (min-width: 56.25rem) {
+
+  #cards:not(.list-view) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}

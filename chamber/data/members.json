@@ -1,0 +1,153 @@
+{
+  "commerces": [
+    {
+      "name": "Clima Sierras",
+      "address": "Av. del Valle 125, San Luis",
+      "phone": "266 400-1001",
+      "website": "https://example.com",
+      "image": "air-conditioning.webp",
+      "membershipLevel": 3,
+      "category": "Air Conditioning",
+      "tagline": "Installation, sales and repair"
+    },
+    {
+      "name": "PrintLab 3D",
+      "address": "Calle Los Álamos 240, San Luis",
+      "phone": "266 400-1002",
+      "website": "https://example.com",
+      "image": "3d-printing.webp",
+      "membershipLevel": 2,
+      "category": "3D Printing",
+      "tagline": "Custom 3D printing and design"
+    },
+    {
+      "name": "Café del Valle",
+      "address": "Av. de las Sierras 350, San Luis",
+      "phone": "266 400-1003",
+      "website": "https://example.com",
+      "image": "coffee-shop.webp",
+      "membershipLevel": 3,
+      "category": "Coffee Shop",
+      "tagline": "Coffee, pastries and good moments"
+    },
+    {
+      "name": "Panadería El Trigal",
+      "address": "Calle Belgrano 415, San Luis",
+      "phone": "266 400-1004",
+      "website": "https://example.com",
+      "image": "bakery.webp",
+      "membershipLevel": 1,
+      "category": "Bakery",
+      "tagline": "Fresh bread every morning"
+    },
+    {
+      "name": "Papelera Horizonte",
+      "address": "Av. Central 520, San Luis",
+      "phone": "266 400-1005",
+      "website": "https://example.com",
+      "image": "stationery.webp",
+      "membershipLevel": 2,
+      "category": "Stationery",
+      "tagline": "Everything for school and office"
+    },
+    {
+      "name": "Detalles de Sion",
+      "address": "Calle Las Flores 180, San Luis",
+      "phone": "266 400-1006",
+      "website": "https://example.com",
+      "image": "gift-shop.webp",
+      "membershipLevel": 1,
+      "category": "Gift Shop",
+      "tagline": "Gifts for every special occasion"
+    },
+    {
+      "name": "Melina Atelier",
+      "address": "Calle Independencia 625, San Luis",
+      "phone": "266 400-1007",
+      "website": "https://example.com",
+      "image": "clothing-design.webp",
+      "membershipLevel": 3,
+      "category": "Clothing Design",
+      "tagline": "Custom clothing and dressmaking"
+    },
+    {
+      "name": "Cuidado Vital",
+      "address": "Av. del Parque 710, San Luis",
+      "phone": "266 400-1008",
+      "website": "https://example.com",
+      "image": "nursing-services.webp",
+      "membershipLevel": 2,
+      "category": "Nursing Services",
+      "tagline": "Professional nursing care at home"
+    },
+    {
+      "name": "Consultorio San Gabriel",
+      "address": "Calle Rivadavia 830, San Luis",
+      "phone": "266 400-1009",
+      "website": "https://example.com",
+      "image": "medical-office.webp",
+      "membershipLevel": 3,
+      "category": "Medical Services",
+      "tagline": "General medical consultations"
+    },
+    {
+      "name": "Mecánica El Pistón",
+      "address": "Av. Industrial 950, San Luis",
+      "phone": "266 400-1010",
+      "website": "https://example.com",
+      "image": "auto-mechanic.webp",
+      "membershipLevel": 1,
+      "category": "Auto Repair",
+      "tagline": "Automotive maintenance and repair"
+    },
+    {
+      "name": "Pixel Web Studio",
+      "address": "Calle San Martín 1020, San Luis",
+      "phone": "266 400-1011",
+      "website": "https://example.com",
+      "image": "web-development.webp",
+      "membershipLevel": 3,
+      "category": "Web Development",
+      "tagline": "Websites and digital solutions"
+    },
+    {
+      "name": "Luz Makeup",
+      "address": "Calle Pringles 1120, San Luis",
+      "phone": "266 400-1012",
+      "website": "https://example.com",
+      "image": "makeup-studio.webp",
+      "membershipLevel": 1,
+      "category": "Makeup",
+      "tagline": "Professional makeup services"
+    },
+    {
+      "name": "Estilo Sierra",
+      "address": "Av. Illia 1250, San Luis",
+      "phone": "266 400-1013",
+      "website": "https://example.com",
+      "image": "hair-salon.webp",
+      "membershipLevel": 2,
+      "category": "Hair Salon",
+      "tagline": "Haircuts, styling and treatments"
+    },
+    {
+      "name": "Nails & Beauty",
+      "address": "Calle Mitre 1350, San Luis",
+      "phone": "266 400-1014",
+      "website": "https://example.com",
+      "image": "nail-salon.webp",
+      "membershipLevel": 1,
+      "category": "Nail Salon",
+      "tagline": "Manicures and nail art"
+    },
+    {
+      "name": "Moda Urbana",
+      "address": "Av. España 1450, San Luis",
+      "phone": "266 400-1015",
+      "website": "https://example.com",
+      "image": "clothing-store.webp",
+      "membershipLevel": 2,
+      "category": "Clothing Store",
+      "tagline": "Fashion and everyday clothing"
+    }
+]}

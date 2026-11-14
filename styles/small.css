@@ -1,9 +1,12 @@
 :root {
-  --primary-color: #08630e;
-  --complementari-color: #a8d3aa;
-  --secondary-color: #ffffff;
-  --font-body: "Inter", sans-serif;
-  --font-heading: "Poppins", sans-serif;
+    --primary-color: #151515;
+    --secondary-color: #777777;
+    --background-color: #F7F7F5;
+    --text-color: #202020;
+    --accent-color: #C5A45B;
+
+    --font-body: "Inter", sans-serif;
+    --font-heading: "Oswald", sans-serif;
 }
 
 * {

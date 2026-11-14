@@ -1,0 +1,265 @@
+:root {
+  --primary-color: #151515;
+  --secondary-color: #777777;
+  --background-color: #F7F7F5;
+  --text-color: #202020;
+  --accent-color: #C5A45B;
+  --font-body: "Inter", sans-serif;
+  --font-heading: "Oswald", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; I use it from the normalize.css */
+}
+
+body {
+  padding: 0 8px;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+}
+
+/* ========== HEADER ========== */
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  padding: 5px 0 5px 10px;
+  align-items: end;
+  border-bottom: solid 1px #ddd;
+  column-gap: 8px;
+}
+
+/* Now lets put the logo inside the 24px column that I create */
+header img {
+  display: block;
+  width: 100%; /* respect his container (24px) */
+  height: auto;
+}
+
+header span {
+  font-size: 1.2rem;
+
+}
+
+/* ============ HAMBURGUER ============*/
+
+.hamburguer {
+  background: none;
+  border: none;
+  cursor: pointer; /* Indicate that the element is clickable */
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* Because the x is small */
+
+}
+
+.hamburguer::before {
+  content: "\2630"; /* ≡ */
+  font-size: 2rem;
+}
+
+.hamburguer.show::before {
+  content: "\00D7";
+  font-size: 2rem;
+}
+
+/* ========= NAVIGATION ========= */
+.navigation {
+  display: none; /* There is not on mobile */
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation a {
+  display: block;
+  padding: .8rem 10px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  text-decoration: none;
+  border-bottom: solid 1px var(--secondary-color);
+}
+
+.navigation li.current {
+  background-color: var(--background-color);
+}
+
+.navigation li.current a {
+  background-color: var(--accent-color);
+  color: #000;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  background-color: var(--accent-color);
+  color: #000;
+}
+
+h1 {
+  margin: 10px;
+  font-family: var(--font-heading);
+}
+
+/* ======= MAIN ============= */
+
+
+
+
+/* ============ Borrar?????? ============ */
+section {
+  background-color: var(--accent-color);
+  margin: 20px 0;
+}
+
+section p {
+  padding: 10px;
+}
+
+section img {
+  display: block;
+  padding: 20px;
+  margin-inline: auto; /* center the imagen */
+}
+/* ======================================== */
+
+/* ========= FOOTER ========== */
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 1rem 10px;
+  text-align: center;
+  color: var(--background-color);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+  padding: .5rem 0;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: #ccc solid 1px;
+  /* red dashed 1px; This helps just to see */
+  border-radius: 22px;
+}
+
+.social img {
+  width: 22px;
+  height: 22px;
+}
+
+.social a:hover {
+  background-color: #ddd;
+}
+
+p {
+  padding: .5rem 0;
+}
+
+/* ========= DIRECTORY ========= */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.view-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.view-buttons button {
+  padding: .6rem 2rem;
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  font: inherit;
+}
+
+.view-buttons button:hover,
+.view-buttons button[aria-pressed="true"] {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* GRID */
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.member-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+}
+
+.member-card h2 {
+  font-family: var(--font-heading);
+  margin-bottom: .3rem;
+}
+
+.member-card img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: 180px;
+  object-fit: cover;
+  margin: 1rem auto;
+  border-radius: 4px;
+}
+
+.member-card p {
+  margin: .4rem 0;
+}
+
+.member-card a {
+  color: var(--primary-color);
+  overflow-wrap: anywhere;
+}
+
+/* LIST */
+
+#cards.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.list-view .member-card {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: .8rem;
+  text-align: left;
+}
+
+.list-view .member-card img {
+  display: none;
+}
+
+.list-view .member-card h2 {
+  font-size: 1.1rem;
+}
