@@ -3,7 +3,7 @@
   /* =========== HEADER ========== */
 
   header {
-    grid-template-columns: 24px auto;
+    grid-template-columns: 48px auto;
   }
 
   header,

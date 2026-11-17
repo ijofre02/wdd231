@@ -25,9 +25,9 @@ body {
 /* ========== HEADER ========== */
 header {
   display: grid;
-  grid-template-columns: 24px auto 44px;
+  grid-template-columns: 48px auto 44px;
   padding: 5px 0 5px 10px;
-  align-items: end;
+  align-items: center; /* I change end for center */
   border-bottom: solid 1px #ddd;
   column-gap: 8px;
 }
@@ -35,7 +35,7 @@ header {
 /* Now lets put the logo inside the 24px column that I create */
 header img {
   display: block;
-  width: 100%; /* respect his container (24px) */
+  width: 100%; /* respect his container (48px) */
   height: auto;
 }
 
@@ -107,27 +107,6 @@ h1 {
   font-family: var(--font-heading);
 }
 
-/* ======= MAIN ============= */
-
-
-
-
-/* ============ Borrar?????? ============ */
-section {
-  background-color: var(--accent-color);
-  margin: 20px 0;
-}
-
-section p {
-  padding: 10px;
-}
-
-section img {
-  display: block;
-  padding: 20px;
-  margin-inline: auto; /* center the imagen */
-}
-/* ======================================== */
 
 /* ========= FOOTER ========== */
 

@@ -10,7 +10,7 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Sion San Luis | Business Directory">
   <meta property="og:description" content="Discover local businesses and entrepreneurs in San Luis, Argentina. Connect with business owners and support our growing community.">
-  <meta property="og:image" content="https://ijofre02.github.io/wdd231/chamber/images/sion-social.jpg">
+  <meta property="og:image" content="https://ijofre02.github.io/wdd231/chamber/images/sion-social.webp">
   <meta property="og:url" content="https://ijofre02.github.io/wdd231/chamber/directory.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Sion San Luis Chamber of Commerce">
@@ -33,26 +33,26 @@
 </head>
 <body>
   <header>
-    <img src="images/sion-social.jpg" alt="site logo" width="16" height="16">
-    <span>Sion San Luis Camber of Commerce</span>
+    <img src="images/sion-social.webp" alt="site logo" width="600" height="335">
+    <span>Sion San Luis Chamber of Commerce</span>
     <button id="ham-btn" class="hamburguer" aria-label="Menu"></button>
   </header>
-  <nav>
-    <nav id="nav-bar" class="navigation">
-      <ul>
-        <li class="current"><a href="chamber/index.html">Home</a></li>
-        <li><a href="#" aria-current="page">Directory</a></li>
-        <li><a href="chamber/join.html">Join</a></li>
-        <li><a href="chamber/discover.html">Discover</a></li>
-      </ul>
-    </nav>
+
+  <nav id="nav-bar" class="navigation">
+    <ul>
+      <li class="current"><a href="index.html">Home</a></li>
+      <li class="current"><a href="directory.html" aria-current="page">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="discover.html">Discover</a></li>
+    </ul>
   </nav>
+  
   <main>
     <h1>Directory</h1>
 
     <div class="view-buttons">
-      <button id="grid-btn">Grid</button>
-      <button id="list-btn">List</button>
+      <button id="grid-btn" aria-pressed="true">Grid</button>
+      <button id="list-btn" aria-pressed="false">List</button>
     </div>
 
     <div id="cards"></div>
@@ -64,11 +64,9 @@
     <p>Sion San Luis</p>
     <div class="social"> <!-- target="_blank" open in a new tab -->
       <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="Github" width="16" height="16"></a>
-      <a href="https://www.linkedin.com/in/ignacio-d-jofre/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"
-          width="16" height="16"></a>
-      <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"
-          width="16" height="16"></a>
-      <a href="https://instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+      <a href="https://www.linkedin.com/in/ignacio-d-jofre/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram" width="16" height="16"></a>
     </div>
     <p>WDD231 Class Project</p>
     <p>Ignacio D. Jofré Alonso</p>
